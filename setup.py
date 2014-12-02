@@ -11,7 +11,7 @@ setup(
     license='MIT',
     entry_points={
         'console_scripts': [
-            'gaenv=gaenv.cmd_main'
+            'gaenv=gaenv:cmd_main'
         ]
     },
     require=[
